@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <h2 class="main__title">Register with us</h2>
+      <form class="form">
+        <label class="form__label" for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter username"
+          class="form__input"
+        />
+        <small class="form__small">Error message</small>
+        <label class="form__label" for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter email"
+          class="form__input"
+        />
+        <small class="form__small">Error message</small>
+        <label class="form__label" for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter password"
+          class="form__input"
+        />
+        <small class="form__small">Error message</small>
+        <label class="form__label" for="password2">Confirm password</label>
+        <input
+          type="password"
+          name="password2"
+          id="password2"
+          placeholder="Enter password again"
+          class="form__input"
+        />
+        <small class="form__small">Error message</small>
+        <button class="form__button">Submit</button>
+      </form>
+    </main>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
