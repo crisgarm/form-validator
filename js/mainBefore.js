@@ -9,6 +9,7 @@ const smallUsername = document.querySelector(".js-small-username");
 const smallEmail = document.querySelector(".js-small-email");
 const smallPassword = document.querySelector(".js-small-password");
 const smallPassword2 = document.querySelector(".js-small-password2");
+const inputList = document.querySelectorAll(".form__input");
 
 function handleSubmit(ev) {
   ev.preventDefault();
